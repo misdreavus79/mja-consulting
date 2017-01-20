@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/impruv-fitness":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/impruv-fitness","hostpath":"/Users/misdreavus79/Work/clients/impruv-fitness","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/misdreavus79/Work/clients/impruv-fitness","disabled":false,"__vagrantfile":true}}}
