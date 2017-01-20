@@ -11,9 +11,13 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/home', function () {
     // return view('welcome');
     return view('home', ['page_title' => 'Home']);
+});
+
+Route::get('/', function(){
+	return view('temphome', ['page_title' => 'Impruv Fitness']);
 });
 
 Route::get('/about', function () {
