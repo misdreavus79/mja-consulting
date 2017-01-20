@@ -84,6 +84,6 @@ Route::get('styles', function () {
     return view('styleguide', ['page_title' => 'Style Guide']);
 });
 
-Auth::routes();
+// Auth::routes();
 
-Route::get('/home', 'HomeController@index');
+// Route::get('/home', 'HomeController@index');
