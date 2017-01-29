@@ -500,6 +500,19 @@ template {
   display: none;
 }
 
+h1 {
+  color: #fff;
+  font-size: 54px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #62bb46;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -513,18 +526,6 @@ body {
   color: #d6d8d9;
   font-family: "Lato", sans-serif;
   margin-top: 1em;
-}
-
-body a:link {
-  color: #62bb46;
-}
-
-body a:hover, body a:focus {
-  color: #fff200;
-}
-
-body a:visited {
-  color: #3b712a;
 }
 
 a {
@@ -546,7 +547,7 @@ img {
   width: 100%;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 0 1em;
+  padding: 0 0 18px;
 }
 
 .masthead a {
@@ -585,6 +586,50 @@ img {
   text-align: center;
 }
 
+.hero {
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  position: relative;
+  padding: 108px 0;
+}
+
+.hero:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+}
+
+.hero:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(http://resources.synthesio.com/rs/297-CXJ-795/images/pattern-4.png);
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.home:after {
+  background: url(https://storage.googleapis.com/sca/impruvfitness/temp/20161125_184238.jpg) no-repeat 50% 50%;
+}
+
+.about:after {
+  background: url(https://storage.googleapis.com/sca/impruvfitness/hero/about-1440.jpg) no-repeat 50% 50%;
+}
+
+.services:after {
+  background: url(https://storage.googleapis.com/sca/impruvfitness/temp/20161125_184238.jpg) no-repeat 50% 50%;
+}
+
+.team:after {
+  background: url(https://storage.googleapis.com/sca/impruvfitness/hero/about-1440.jpg) no-repeat 50% 50%;
+}
+
 .main {
   max-width: 1200px;
   margin-left: auto;
@@ -595,6 +640,27 @@ img {
   clear: both;
   content: "";
   display: block;
+}
+
+.main a:link {
+  color: #62bb46;
+}
+
+.main a:hover, .main a:focus {
+  color: #fff200;
+}
+
+.main a:visited {
+  color: #3b712a;
+}
+
+.profile {
+  float: left;
+  margin: 0 36px 0 0;
+  border-radius: 50%;
+  -webkit-shape-outside: circle();
+  shape-outside: circle();
+  border: 5px solid #62bb46;
 }
 
 footer {
@@ -651,6 +717,26 @@ footer small {
 
 [class^="icon-"], [class*=" icon-"] {
   font-size: 24px;
+}
+
+.button {
+  background-color: #62bb46;
+  border-radius: 3px;
+  padding: 18px;
+  display: inline-block;
+  text-align: center;
+  min-width: 178px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #62bb46;
+}
+
+.homeCTA {
+  margin-right: 72px;
 }
 
 /*# sourceMappingURL=app.css.map */

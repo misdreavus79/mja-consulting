@@ -1,8 +1,12 @@
 @extends('layouts.twocolumn')
 
-@section('content')
-	<h1>Fitness Instruction Services</h1>
+@section('hero')
+	<section class="hero services">
+		<h1>Fitness Instruction Services</h1>
+	</section>
+@endsection
 
+@section('content')
 	<h2>Personal Training Programs (1-1, 2-1, Pre &amp; PostNatal, Rehabilitative)</h2>
 	<p>Custom programs designed around your intake assessment, your stated fitness objective, and the duration of time necessary to bridge the two.</p>
 

@@ -1,7 +1,15 @@
 @extends('layouts.onecolumn')
 
+@section('hero')
+	<section class="hero team">
+		<h1>Team</h1>
+	</section>
+@endsection
+
 @section('content')
-	<h1>Team</h1>
+	<p>Team description intro words team description intro words team description intro words team description intro words team description intro words team description intro words team description intro words team description intro words team description intro words team description intro words team description intro words team description intro words team description intro words team description intro words team description intro words.</p>
+	<p>Team description intro words team description intro words team description intro words team description intro words team description intro words team description intro words team description intro words team description intro words team description intro words team description intro words team description intro words team description intro words team description intro words team description intro words team description intro words.</p>
+	<img src="https://storage.googleapis.com/sca/impruvfitness/profile.jpg" alt="Kasha 'KB' Payne" class="profile">
 	<h2>Kasha "KB" Payne, Funtional Fitness Therapist</h2>
 	<p>KB has worked diligently with the athletic community in NYC and more recently in Portland, OR. As a Licensed Massage Therapist, Personal Trainer, Small Group Instructor and former Corporate Wellness Liaison with a major, NYC-based, corporate fitness chain, KB has worked with hundreds, if not thousands of clientele to date toward their respective fitness and/or rehabilitative goals.</p>
 

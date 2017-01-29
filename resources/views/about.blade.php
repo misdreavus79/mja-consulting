@@ -1,7 +1,12 @@
 @extends('layouts.onecolumn')
 
+@section('hero')
+	<section class="hero about">
+		<h1>About Impruv Fitness - The IMPRUV Commitment</h1>
+	</section>
+@endsection
+
 @section('content')
-	<h1>About Impruv Fitness - The IMPRUV Commitment</h1>
 	<p>IMPRUV Fitness &amp; Wellness, a professional, boutique-styled training and professional athletic services facility, opens its doors with the goal of servicing the athletic and fitness community through all ages, all stages of athletic, sport and fitness training.</p>
 	
 	<p>Whether you are 12 years of age or 80, IMPRUV works to provide quality fitness services to the community. By properly assessing your current fitness state, reviewing your immediate and long-terms goals, developing a plan of action to attain your specified goals IMPRUV works with you to care, develop and maintain your fitness level through your training or sport season or your rehabilitative program.</p>
