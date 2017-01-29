@@ -114,6 +114,13 @@ img{
 		}
 	}
 }
+.primary{
+	@include span-columns(8);
+}
+.secondary{
+	@include span-columns(4);
+	@include omega;
+}
 .profile{
 	float: left;
 	margin: 0 $base-spacing * 2 0 0;

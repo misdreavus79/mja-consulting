@@ -17,11 +17,9 @@
                 <section class="primary">
                     @yield('content')
                 </section>
-                @section('aside')
                 <aside id="secondary" class="secondary">
-
+                    @yield('aside')
                 </aside>
-                @show
             </main>
             <footer>
                 @include('includes.footer')

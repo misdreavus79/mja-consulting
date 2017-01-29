@@ -654,6 +654,29 @@ img {
   color: #3b712a;
 }
 
+.primary {
+  float: left;
+  display: block;
+  margin-right: 2.3576520234%;
+  width: 65.8807826589%;
+}
+
+.primary:last-child {
+  margin-right: 0;
+}
+
+.secondary {
+  float: left;
+  display: block;
+  margin-right: 2.3576520234%;
+  width: 31.7615653177%;
+  margin-right: 0;
+}
+
+.secondary:last-child {
+  margin-right: 0;
+}
+
 .profile {
   float: left;
   margin: 0 36px 0 0;
