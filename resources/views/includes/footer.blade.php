@@ -1,4 +1,5 @@
                 <nav class="footerMeta group">
+                    <h6>Navigate</h6>
                     <ul class="footerLinks">
                         <li><a href="/about">About</a></li>
                         <li><a href="/team">Team</a></li>
@@ -89,5 +90,16 @@
                     <a href='https://play.google.com/store/apps/details?id=com.fitnessmobileapps.impruvfitness&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank">
                         <img alt='Get the Impruv Fitness App on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>
                     </a>
+                    <h6>Contact</h6>
+                    <ul>
+                        <li><b>P:</b> 123-456-7890</li>
+                        <li><b>E:</b> name@impruvfitnesswellness.com</li>
+                        <li><b>A:</b> 123 Main St, City, OR 12345</li>
+                    </ul>
+                    <h6>Hours</h6>
+                    <ul>
+                        <li>M-F: 8:00 AM - 8:00 PM</li>
+                        <li>S-S: 9:00 AM - 6:00 PM</li>
+                    </ul>
                 </nav>
                 <small class="copyright">&copy;{{ date('Y') }} Impruv Fitness | All Rights Reserved</small>

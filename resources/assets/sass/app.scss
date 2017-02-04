@@ -10,6 +10,9 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
 
+.group{
+	@include clearfix;
+}
 body{
 	background-color: $body-bg;
 	color: $text-color;
@@ -102,7 +105,7 @@ img{
 }
 .main{
 	@include outer-container;
-	a{
+	a:not('.button'){
 		&:link{
 			color: $brand-primary-2;
 		}
@@ -121,6 +124,34 @@ img{
 	@include span-columns(4);
 	@include omega;
 }
+.homeBlock{
+	padding: 2em 10%;
+	h2{
+		margin-top: 0;
+		text-align: center;
+	}
+	&:nth-of-type(even){
+		background-color: #fff;
+	}
+}
+.adSquare{
+	text-align: center;
+	border: 1px solid $brand-primary-2;
+	border-radius: 3px;
+	padding-bottom: $base-spacing;
+	@include span-columns(4);
+	&:last-of-type{
+		@include omega;
+	}
+}
+.nutrition{
+	display: inline-block;
+	width: 49%;
+	vertical-align: middle;
+	&:last-of-type{
+		text-align: center;
+	}
+}
 .profile{
 	float: left;
 	margin: 0 $base-spacing * 2 0 0;
@@ -131,7 +162,7 @@ img{
 
 footer{
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .7);
-	padding-top: 9px;
+	padding: $base-spacing $base-spacing * 2;
 	background-color: darken($brand-primary-1, 55%);
 	h6{
 		margin: 9px 0;
@@ -141,7 +172,6 @@ footer{
 		display: inline-block;
 		vertical-align: middle;
 		margin-right: 18px;
-		margin-bottom: 18px;
 		&:link, &:visited{
 			color: lighten($brand-primary-1, 20%);
 			opacity: .7;
@@ -157,8 +187,14 @@ footer{
 		text-align: center;
 		margin-top: 18px;
 		padding: 9px 0;
-		background-color: darken($brand-primary-1, 70%);
+		// background-color: darken($brand-primary-1, 70%);
 		color: $brand-primary-1;
+	}
+	ul{
+		list-style: none;
+		padding-left: 0;
+		margin: 0;
+		color: lighten($brand-primary-1, 20%);
 	}
 }
 
