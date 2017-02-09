@@ -10,24 +10,27 @@
 
 @section('content')
 	<section class="homeBlock group">
-		<h2>Training</h2>
+		<h2>One-Stop Shop For All Your Training Needs</h2>
 		<div class="adSquare">
+			<img src="https://storage.googleapis.com/sca/impruvfitness/icons/group-training.svg" style="width: 50%;">
 			<h3>Group Training</h3>
 			<p>Some blurb about training here that gives a little preview about training programs.</p>
 			<a href="" class="button">Learn More</a>
 		</div>
 		<div class="adSquare">
+		<img src="https://storage.googleapis.com/sca/impruvfitness/icons/personal-training.svg" style="width: 50%;">
 			<h3>Personal Training</h3>
 			<p>Some blurb about training here that gives a little preview about training programs.</p>
 			<a href="" class="button">Learn More</a>
 		</div>
 		<div class="adSquare">
+			<img src="https://storage.googleapis.com/sca/impruvfitness/icons/youth-training.svg" style="width: 50%;">
 			<h3>Youth Training</h3>
 			<p>Some blurb about training here that gives a little preview about training programs.</p>
 			<a href="" class="button">Learn More</a>
 		</div>
 	</section>
-	<section class="homeBlock">
+	<section class="homeBlock hero nutritionSection">
 		<h2>Nutrition Counseling</h2>
 		<p class="nutrition">blah blah blah nutrition yay</p>
 		<p class="nutrition">

@@ -636,6 +636,10 @@ img {
   background: url(https://storage.googleapis.com/sca/impruvfitness/hero/about-1440.jpg) no-repeat 50% 50%;
 }
 
+.nutritionSection:after {
+  background: url(https://storage.googleapis.com/sca/impruvfitness/hero/nutrition-1440.jpg) no-repeat 50% 50%;
+}
+
 .main {
   max-width: 1200px;
   margin-left: auto;
@@ -693,13 +697,11 @@ img {
 }
 
 .homeBlock:nth-of-type(even) {
-  background-color: #fff;
+  background-color: #bcbec0;
 }
 
 .adSquare {
   text-align: center;
-  border: 1px solid #62bb46;
-  border-radius: 3px;
   padding-bottom: 18px;
   float: left;
   display: block;

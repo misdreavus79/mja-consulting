@@ -103,6 +103,9 @@ img{
 .team:after{
 	background: url(https://storage.googleapis.com/sca/impruvfitness/hero/about-1440.jpg) no-repeat 50% 50%;	
 }
+.nutritionSection:after{
+	background: url(https://storage.googleapis.com/sca/impruvfitness/hero/nutrition-1440.jpg) no-repeat 50% 50%;
+}
 .main{
 	@include outer-container;
 	a:not('.button'){
@@ -131,13 +134,11 @@ img{
 		text-align: center;
 	}
 	&:nth-of-type(even){
-		background-color: #fff;
+		background-color: $brand-primary-1;
 	}
 }
 .adSquare{
 	text-align: center;
-	border: 1px solid $brand-primary-2;
-	border-radius: 3px;
 	padding-bottom: $base-spacing;
 	@include span-columns(4);
 	&:last-of-type{
