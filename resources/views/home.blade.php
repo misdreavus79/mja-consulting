@@ -3,8 +3,8 @@
 @section('hero')
 	<section class="hero home">
 		<h1>Hero Message Homepage Longer Longer and Even Longer</h1>
-		<a href="" class="button homeCTA">View Class Schedule</a>
-		<a href="" class="button homeCTA">Book a Session</a>
+		<a href="" class="homeCTA">View Class Schedule</a>
+		<a href="" class="homeCTA">Book a Session</a>
 	</section>
 @endsection
 
@@ -34,7 +34,7 @@
 		<h2>Nutrition Counseling</h2>
 		<p class="nutrition">blah blah blah nutrition yay</p>
 		<p class="nutrition">
-			<a href="" class="button">Speak to a Counselor</a>
+			<a href="" class="homeCTA">Speak to a Counselor</a>
 		</p>
 		
 	</section>

@@ -1,0 +1,23 @@
+@mixin button($type){
+	border-radius: 3px;
+	padding: 18px;
+	display: inline-block;
+	text-align: center;
+	min-width: 178px;
+	color: #fff;
+	font-size: 18px;
+	@if $type == 'filled'{
+		background-color: $brand-primary-2;
+		&:hover{
+			background-color: #fff;
+			color: $brand-primary-2;
+		}
+	}@else if $type == 'transparent' {
+		border: 1px solid #fff;
+		&:hover{
+			border-color: $brand-primary-2;
+			background-color: #fff;
+			color: $brand-primary-2;
+		}
+	}
+}

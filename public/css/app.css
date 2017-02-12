@@ -696,10 +696,6 @@ img {
   text-align: center;
 }
 
-.homeBlock:nth-of-type(even) {
-  background-color: #bcbec0;
-}
-
 .adSquare {
   text-align: center;
   padding-bottom: 18px;
@@ -798,7 +794,6 @@ footer ul {
 }
 
 .button {
-  background-color: #62bb46;
   border-radius: 3px;
   padding: 18px;
   display: inline-block;
@@ -806,6 +801,7 @@ footer ul {
   min-width: 178px;
   color: #fff;
   font-size: 18px;
+  background-color: #62bb46;
 }
 
 .button:hover {
@@ -815,6 +811,20 @@ footer ul {
 
 .homeCTA {
   margin-right: 72px;
+  border-radius: 3px;
+  padding: 18px;
+  display: inline-block;
+  text-align: center;
+  min-width: 178px;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #fff;
+}
+
+.homeCTA:hover {
+  border-color: #62bb46;
+  background-color: #fff;
+  color: #62bb46;
 }
 
 /*# sourceMappingURL=app.css.map */
