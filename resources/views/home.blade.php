@@ -31,19 +31,22 @@
 		</div>
 	</section>
 	<section class="homeBlock hero nutritionSection">
-		<h2>Nutrition Counseling</h2>
-		<p class="nutrition">blah blah blah nutrition yay</p>
+		<h2>Certified Nutrition Counselors</h2>
+		<p class="nutrition">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue vestibulum est vitae tempor. Suspendisse auctor eleifend interdum. Ut ac quam et elit mollis sodales. Suspendisse potenti. Morbi consectetur purus sit amet dictum sagittis.</p>
 		<p class="nutrition">
 			<a href="" class="homeCTA">Speak to a Counselor</a>
 		</p>
 		
 	</section>
-	<section class="homeBlock">
+	<section class="homeBlock workshops">
 		<h2>Upcoming Workshops</h2>
 		<p>Workshop Yay Yay!</p>
 	</section>
-	<section class="homeBlock">
-		<h2>What They're Saying</h2>
-		<p>It's great yey yey!</p>
+	<section class="homeBlock hero downloadApp">
+		<h2>The Power of Impruv Fitness At Your Fingertips</h2>
+		<p class="nutrition">Ut gravida ante cursus dui hendrerit bibendum. Quisque pulvinar nulla et finibus cursus. Phasellus a lectus enim. In in libero et lectus elementum tempus. Etiam pharetra orci sit amet metus placerat accumsan.</p>
+		<p class="nutrition">
+			<a href="" class="homeCTA">Download The App</a>
+		</p>
 	</section>
 @endsection
