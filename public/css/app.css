@@ -621,11 +621,11 @@ img {
 }
 
 .home:after {
-  background: url(https://storage.googleapis.com/sca/impruvfitness/hero/medicine-balls-2560.jpg) no-repeat 50% 50%;
+  background: url(https://storage.googleapis.com/sca/impruvfitness/hero/medicine-balls-1440.jpg) no-repeat 50% 50%;
 }
 
 .about:after {
-  background: url(https://storage.googleapis.com/sca/impruvfitness/hero/about-2560.jpg) no-repeat 50% 50%;
+  background: url(https://storage.googleapis.com/sca/impruvfitness/hero/about-1440.jpg) no-repeat 50% 50%;
 }
 
 .services:after {
@@ -633,18 +633,18 @@ img {
 }
 
 .team:after {
-  background: url(https://storage.googleapis.com/sca/impruvfitness/hero/about-2560.jpg) no-repeat 50% 50%;
+  background: url(https://storage.googleapis.com/sca/impruvfitness/hero/about-1440.jpg) no-repeat 50% 50%;
 }
 
 .nutritionSection:after {
-  background: url(https://storage.googleapis.com/sca/impruvfitness/hero/nutrition-2560.jpg) no-repeat 50% 50%;
+  background: url(https://storage.googleapis.com/sca/impruvfitness/hero/nutrition-1440.jpg) no-repeat 50% 50%;
 }
 
 .downloadApp:after {
-  background: url(https://storage.googleapis.com/sca/impruvfitness/hero/app-2560.jpg) no-repeat 50% 50%;
+  background: url(https://storage.googleapis.com/sca/impruvfitness/hero/app-1440.jpg) no-repeat 50% 50%;
 }
 
-.workshops {
+.homeBlock.group {
   background-color: #fff;
   color: #55585b;
 }
@@ -764,8 +764,11 @@ footer a:link, footer a:visited {
 }
 
 footer a:hover, footer a:focus, footer a:active {
-  opacity: 1;
   color: #62bb46;
+}
+
+footer a:hover img, footer a:focus img, footer a:active img {
+  opacity: 1;
 }
 
 footer small {
