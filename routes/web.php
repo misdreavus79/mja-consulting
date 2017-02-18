@@ -13,7 +13,7 @@
 
 Route::get('/home', function () {
     // return view('welcome');
-    return view('home', ['page_title' => 'Home']);
+    return view('home', ['page_title' => 'Home', 'registration_date' => date('m/d/Y')]);
 });
 
 Route::get('/', function(){

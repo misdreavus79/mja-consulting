@@ -93,24 +93,102 @@ img{
 	}
 }
 .home:after{
-	background: url(https://storage.googleapis.com/sca/impruvfitness/hero/medicine-balls-1440.jpg) no-repeat 50% 50%;
+	@include hero;
+	background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/medicine-balls-2560.jpg);
+	@include media(max-width 1920px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/medicine-balls-1920.jpg);
+	}
+	@include media(max-width 1440px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/medicine-balls-1440.jpg);
+	}
+	@include media(max-width 1024px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/medicine-balls-1024.jpg);
+	}
+	@include media(max-width 768px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/medicine-balls-768.jpg);
+	}
 }
 .about:after{
-	background: url(https://storage.googleapis.com/sca/impruvfitness/hero/about-1440.jpg) no-repeat 50% 50%;
+	@include hero;
+	background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/about-2560.jpg);
+	@include media(max-width 1920px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/about-1920.jpg);
+	}
+	@include media(max-width 1440px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/about-1440.jpg);
+	}
+	@include media(max-width 1024px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/about-1024.jpg);
+	}
+	@include media(max-width 768px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/about-768.jpg);
+	}
 }
 .services:after{
-	background: url(https://storage.googleapis.com/sca/impruvfitness/temp/20161125_184238.jpg) no-repeat 50% 50%;
+	@include hero;
+	background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/weight-balls-2560.jpg);
+	@include media(max-width 1920px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/weight-balls-1920.jpg);
+	}
+	@include media(max-width 1440px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/weight-balls-1440.jpg);
+	}
+	@include media(max-width 1024px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/weight-balls-1024.jpg);
+	}
+	@include media(max-width 768px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/weight-balls-768.jpg);
+	}
 }
 .team:after{
-	background: url(https://storage.googleapis.com/sca/impruvfitness/hero/about-1440.jpg) no-repeat 50% 50%;	
+	@include hero;
+	background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/team-2560.jpg);
+	@include media(max-width 1920px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/team-1920.jpg);
+	}
+	@include media(max-width 1440px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/team-1440.jpg);
+	}
+	@include media(max-width 1024px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/team-1024.jpg);
+	}
+	@include media(max-width 768px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/team-768.jpg);
+	}
 }
 .nutritionSection:after{
-	background: url(https://storage.googleapis.com/sca/impruvfitness/hero/nutrition-1440.jpg) no-repeat 50% 50%;
+	@include hero;
+	background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/nutrition-2560.jpg);
+	@include media(max-width 1920px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/nutrition-1920.jpg);
+	}
+	@include media(max-width 1440px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/nutrition-1440.jpg);
+	}
+	@include media(max-width 1024px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/nutrition-1024.jpg);
+	}
+	@include media(max-width 768px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/nutrition-768.jpg);
+	}
 }
 .downloadApp:after{
-	background: url(https://storage.googleapis.com/sca/impruvfitness/hero/app-1440.jpg) no-repeat 50% 50%;
+	@include hero;
+	background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/app-2560.jpg);
+	@include media(max-width 1920px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/app-1920.jpg);
+	}
+	@include media(max-width 1440px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/app-1440.jpg);
+	}
+	@include media(max-width 1024px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/app-1024.jpg);
+	}
+	@include media(max-width 768px){
+		background-image: url(https://storage.googleapis.com/sca/impruvfitness/hero/app-768.jpg);
+	}
 }
-.homeBlock.group{
+.homeBlock.group:first-of-type{
 	background-color: #fff;
 	color: darken($brand-primary-1, 40%);
 }
@@ -149,6 +227,10 @@ img{
 	&:last-of-type{
 		@include omega;
 	}
+	@include media(max-width 768px){
+		@include span-columns(10)
+		@include shift(1 of 12);
+	}
 }
 .nutrition{
 	display: inline-block;
@@ -156,6 +238,9 @@ img{
 	vertical-align: middle;
 	&:last-of-type{
 		text-align: center;
+	}
+	@include media(max-width 768px){
+		width: 100%;
 	}
 }
 .profile{
@@ -180,13 +265,15 @@ footer{
 		margin-right: 18px;
 		&:link, &:visited{
 			color: lighten($brand-primary-1, 20%);
-			opacity: .7;
+			img, svg{
+				opacity: .7;
+			}
 		}
 		&:hover, &:focus, &:active{
 			color: $brand-primary-2;
-		}
-		&:hover img, &:focus img, &:active img{
-			opacity: 1;
+			img, svg{
+				opacity: 1;
+			}
 		}
 	}
 	small{
@@ -196,6 +283,11 @@ footer{
 		margin-top: 18px;
 		padding: 9px 0;
 		color: $brand-primary-1;
+		clear: both;
+		@include media(max-width 768px){
+			text-align: left;
+			margin-top: 18px;
+		}
 	}
 	ul{
 		list-style: none;
@@ -206,11 +298,32 @@ footer{
 }
 
 .footerMeta{
-	display: inline-block;
-	width: 33%;
 	min-height: 139px;
-	vertical-align: top;
 	color: lighten($brand-primary-1, 20%);
+	@include span-columns(3);
+	&:last-of-type{
+		@include omega;
+	}
+	@include media(max-width 1440px){
+		@include span-columns(6)
+		&:nth-of-type(even){
+			@include omega;
+		}
+	}
+	@include media(max-width 768px){
+		float: none;
+		width: 100%;
+	}
+}
+
+.partners{
+	a{
+		max-width: 100px;
+		@include media(max-width 768px){
+			max-width: 80px;
+		}
+	}
+
 }
 
 .footerLinks{
@@ -218,14 +331,32 @@ footer{
 	float: left;
 	width: 50%;
 }
+
 [class^="icon-"], [class*=" icon-"]{
 	font-size: 24px;
 }
+
 .button{
 	@include button('filled');
 }
+
 .homeCTA{
 	margin-right: 72px;
 	@include button('transparent');
+	@include media(max-width 768px){
+		margin-right: 0;
+	}
 }
-
+.sm{
+	margin-top: 18px;
+}
+.workshops{
+	time{
+		margin-bottom: 18px;
+		font-size: 18px;
+	}
+	img{
+		border: 2px solid $brand-primary-2;
+		border-radius: 5px;
+	}
+}

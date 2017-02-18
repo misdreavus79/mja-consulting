@@ -21,7 +21,7 @@
                     @yield('aside')
                 </aside>
             </main>
-            <footer>
+            <footer class="group">
                 @include('includes.footer')
             </footer>
         </div>

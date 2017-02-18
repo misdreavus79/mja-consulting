@@ -37,9 +37,29 @@
 			<a href="" class="homeCTA">Download The App</a>
 		</p>
 	</section>
-	<section class="homeBlock workshops">
+	<section class="homeBlock workshops group">
 		<h2>Upcoming Workshops</h2>
-		<p>Workshop Yay Yay!</p>
+		<div class="adSquare">
+			<img src="https://storage.googleapis.com/sca/impruvfitness/meditation-300.jpg">
+			<h3>Nutrition is Delicious</h3>
+			<p>How to make foods that are healthy and provide all the nutrients!</p>
+			<time datetime="{{ $registration_date }}">{{ $registration_date }}</time>
+			<a href="" class="button">Register</a>
+		</div>
+		<div class="adSquare">
+			<img src="https://storage.googleapis.com/sca/impruvfitness/meditation-300.jpg">
+			<h3>Consistency is Key</h3>
+			<p>How to keep yourself motivated and consistent in a busy world!</p>
+			<time datetime="{{ $registration_date }}">{{ $registration_date }}</time>
+			<a href="" class="button">Register</a>
+		</div>
+		<div class="adSquare">
+			<img src="https://storage.googleapis.com/sca/impruvfitness/meditation-300.jpg">
+			<h3>Weight Training Secrets!</h3>
+			<p>I have the secrets to weight training, and I'm sharing them weith you, the people!</p>
+			<time datetime="{{ $registration_date }}">{{ $registration_date }}</time>
+			<a href="" class="button">Register</a>
+		</div>
 	</section>
 	<section class="homeBlock hero nutritionSection">
 		<h2>Certified Nutrition Counselors</h2>

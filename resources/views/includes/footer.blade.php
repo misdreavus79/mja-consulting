@@ -13,10 +13,10 @@
                         <li><a href="/schedule">Class Schedule</a></li>
                     </ul>
                 </nav>
-                <nav class="footerMeta">
+                <nav class="footerMeta partners">
                     <h6>Our Partners</h6>
-                    <a href="http://www.tigardchamber.org" target="_blank">
-                        <img src="http://www.tigardchamber.org/sites/default/files/logo%20white%20tigard.png" alt="Impruv Fitness Memberships - Tigard Chamber of Commerce">
+                    <a href="https://www.mindbodyonline.com/get-the-app?_branch_match_id=344917212155133236" target="_blank">
+                        <img src="https://www.mindbodyonline.com/sites/all/themes/app-landing/img/logo@2x.png" alt="Impruv Fitness Partnershipts - MindBody Online">
                     </a>
                     <a href="https://www.soccershots.org/pdx/" target="_blank">
                         <img src="https://pdx.ssreg.org/images/layout/logo_2.png" alt="Impruv Fittness Partnerships - Soccer Shots">
@@ -24,8 +24,8 @@
                     <a href="http://jumpstartmobilegym.com" target="_blank">
                         <img src="http://jumpstartmobilegym.com/images/logo.png" alt="Impruv Fittness Partnerships - Jump Start Gymnastics">
                     </a>
-                    <a href="https://www.mindbodyonline.com/get-the-app?_branch_match_id=344917212155133236" target="_blank">
-                        <img src="https://www.mindbodyonline.com/sites/all/themes/app-landing/img/logo@2x.png" alt="Impruv Fitness Partnershipts - MindBody Online">
+                    <a href="http://www.tigardchamber.org" target="_blank">
+                        <img src="http://www.tigardchamber.org/sites/default/files/logo%20white%20tigard.png" alt="Impruv Fitness Memberships - Tigard Chamber of Commerce">
                     </a>
                 </nav>
                 <nav class="footerMeta">
@@ -45,7 +45,7 @@
                     <a href="" target="_blank">
                         <i class="icon-flickr2"></i>
                     </a>
-                    <h6>Get the App</h6>
+                    <h6 class="sm">Get the App</h6>
                     <a href="https://itunes.apple.com/us/app/impruv-fitness/id1064709561?mt=8" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="US_UK_Download_on_the" x="0px" y="0px" width="135px" height="40px" viewBox="0 0 135 40" enable-background="new 0 0 135 40" xml:space="preserve">
                         <g>
@@ -90,6 +90,8 @@
                     <a href='https://play.google.com/store/apps/details?id=com.fitnessmobileapps.impruvfitness&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank">
                         <img alt='Get the Impruv Fitness App on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>
                     </a>
+                </nav>
+                <nav class="footerMeta">
                     <h6>Contact</h6>
                     <ul>
                         <li><b>P:</b> 123-456-7890</li>

@@ -16,7 +16,7 @@
             <main id="main" role="main">
                 @yield('content')
             </main>
-            <footer>
+            <footer class="group">
                 @include('includes.footer')
             </footer>
         </div>
