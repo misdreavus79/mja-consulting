@@ -502,7 +502,6 @@ template {
 }
 
 h1 {
-  color: #fff;
   font-size: 54px;
 }
 
@@ -510,7 +509,7 @@ h2 {
   font-size: 36px;
 }
 
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   color: #62bb46;
 }
 
@@ -619,6 +618,10 @@ img {
   z-index: -1;
   width: 100%;
   height: 100%;
+}
+
+.hero h1, .hero h2, .hero h3, .hero h4, .hero h5, .hero h6 {
+  color: #fff;
 }
 
 .home:after {

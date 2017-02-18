@@ -2,7 +2,7 @@
 
 @section('hero')
 	<section class="hero team">
-		<h1>Team</h1>
+		<h1>Impruv Fitness Team - The Best of The Best</h1>
 	</section>
 @endsection
 
