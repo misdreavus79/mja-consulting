@@ -2,7 +2,7 @@
 
 @section('hero')
 	<section class="hero home">
-		<h1>Hero Message Homepage Longer Longer and Even Longer</h1>
+		<h1>Athletic Care. Development. Maintenance.</h1>
 		<a href="" class="homeCTA">View Class Schedule</a>
 		<a href="" class="homeCTA">Book a Session</a>
 	</section>
@@ -62,7 +62,7 @@
 		</div>
 	</section>
 	<section class="homeBlock hero nutritionSection">
-		<h2>Certified Nutrition Counselors</h2>
+		<h2>Certified Fitness Nutrition Specialists</h2>
 		<p class="nutrition">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue vestibulum est vitae tempor. Suspendisse auctor eleifend interdum. Ut ac quam et elit mollis sodales. Suspendisse potenti. Morbi consectetur purus sit amet dictum sagittis.</p>
 		<p class="nutrition">
 			<a href="" class="homeCTA">Speak to a Counselor</a>
