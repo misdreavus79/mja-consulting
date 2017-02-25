@@ -15,19 +15,19 @@
 			<img src="https://storage.googleapis.com/sca/impruvfitness/icons/group-training.svg" style="width: 50%;">
 			<h3>Group Training</h3>
 			<p>Some blurb about training here that gives a little preview about training programs.</p>
-			<a href="" class="button">Learn More</a>
+			<a href="/training/group" class="button">Learn More</a>
 		</div>
 		<div class="adSquare">
 		<img src="https://storage.googleapis.com/sca/impruvfitness/icons/personal-training.svg" style="width: 50%;">
 			<h3>Personal Training</h3>
 			<p>Some blurb about training here that gives a little preview about training programs.</p>
-			<a href="" class="button">Learn More</a>
+			<a href="training/personal" class="button">Learn More</a>
 		</div>
 		<div class="adSquare">
 			<img src="https://storage.googleapis.com/sca/impruvfitness/icons/youth-training.svg" style="width: 50%;">
 			<h3>Youth Training</h3>
 			<p>Some blurb about training here that gives a little preview about training programs.</p>
-			<a href="" class="button">Learn More</a>
+			<a href="training/youth" class="button">Learn More</a>
 		</div>
 	</section>
 	<section class="homeBlock hero downloadApp">

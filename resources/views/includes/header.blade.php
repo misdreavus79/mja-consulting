@@ -15,7 +15,7 @@
                                 Services
                             </a>
                             <a href="/workshops" @if ($page_title == 'Workshops') class="selected" @endif>
-                                Workshops
+                                Events
                             </a>
                         </div>
                     </nav>
