@@ -1,4 +1,4 @@
-<nav class="masthead">
+<nav class="masthead group">
                         <div class="links">
                             <a href="/about" @if ($page_title == 'About') class="selected" @endif>
                                 About
@@ -8,7 +8,7 @@
                             </a>
                         </div><!--
                         --><a href="/" title="home" class="logo">
-                            <img src="https://storage.googleapis.com/sca/impruvfitness/Impruv_mainlogo.png" alt="Impruv Fitness and Wellness" width="200">
+                            <img src="https://storage.googleapis.com/sca/impruvfitness/Impruv_mainlogo.png" alt="Impruv Fitness and Wellness">
                         </a><!--
                         --><div class="links">
                             <a href="/services" @if ($page_title == 'Services') class="selected" @endif>

@@ -531,7 +531,6 @@ body {
   background-color: #000;
   color: #d6d8d9;
   font-family: "Lato", sans-serif;
-  margin-top: 1em;
 }
 
 a {
@@ -554,6 +553,7 @@ img {
   text-transform: uppercase;
   font-weight: bold;
   padding: 0 0 18px;
+  padding-top: 18px;
 }
 
 .masthead a {
@@ -561,8 +561,6 @@ img {
 }
 
 .masthead a:link, .masthead a:visited {
-  display: inline-block;
-  vertical-align: middle;
   color: #bcbec0;
   font-size: 36px;
 }
@@ -577,9 +575,16 @@ img {
 }
 
 .masthead .logo {
-  width: 20%;
+  float: left;
+  display: block;
+  margin-right: 2.3576520234%;
+  width: 14.7019566472%;
   text-align: center;
   margin: 0;
+}
+
+.masthead .logo:last-child {
+  margin-right: 0;
 }
 
 .masthead .logo:hover {
@@ -587,9 +592,20 @@ img {
 }
 
 .masthead .links {
-  width: 40%;
-  display: inline-block;
+  float: left;
+  display: block;
+  margin-right: 2.3576520234%;
+  width: 40.291369653%;
   text-align: center;
+  padding-top: 65px;
+}
+
+.masthead .links:last-child {
+  margin-right: 0;
+}
+
+.masthead .links:last-of-type {
+  margin-right: 0;
 }
 
 .hero {
