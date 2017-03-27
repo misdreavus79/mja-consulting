@@ -65,7 +65,7 @@
 		<h2>Certified Fitness Nutrition Specialists</h2>
 		<p class="nutrition">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue vestibulum est vitae tempor. Suspendisse auctor eleifend interdum. Ut ac quam et elit mollis sodales. Suspendisse potenti. Morbi consectetur purus sit amet dictum sagittis.</p>
 		<p class="nutrition">
-			<a href="" class="homeCTA">Speak to a Counselor</a>
+			<a href="nutrition" class="homeCTA">Speak to a Counselor</a>
 		</p>
 	</section>
 @endsection
