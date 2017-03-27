@@ -1,8 +1,12 @@
 @extends('layouts.twocolumn')
 
-@section('content')
-    <h1>Small Group Training</h1>
+@section('hero')
+	<section class="hero training">
+		<h1>Small Group Training</h1>
+	</section>
+@endsection
 
+@section('content')
     <h2>IMPRUV STRENGTH</h2>
     <p>IMPRUV STRENGTH increases total-body strength through the development of larger muscle groups while working in sequences which are designed for muscle adaptation and growth yielding an increased impruvment in overall performance.</p>
 	

@@ -565,7 +565,7 @@ img {
   font-size: 36px;
 }
 
-.masthead a:hover {
+.masthead a:hover, .masthead a:focus {
   color: #62bb46;
   border-color: transparent;
 }
@@ -587,7 +587,7 @@ img {
   margin-right: 0;
 }
 
-.masthead .logo:hover {
+.masthead .logo:hover, .masthead .logo:focus {
   opacity: .7;
 }
 
@@ -829,6 +829,7 @@ img {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 2em;
 }
 
 .main::after {
@@ -837,15 +838,15 @@ img {
   display: block;
 }
 
-.main a:not('.button'):link {
+.main a:not(.button):link {
   color: #62bb46;
 }
 
-.main a:not('.button'):hover, .main a:not('.button'):focus {
+.main a:not(.button):hover, .main a:not(.button):focus, .main a:not(.button):focus {
   color: #fff200;
 }
 
-.main a:not('.button'):visited {
+.main a:not(.button):visited {
   color: #3b712a;
 }
 
@@ -866,6 +867,7 @@ img {
   margin-right: 2.3576520234%;
   width: 31.7615653177%;
   margin-right: 0;
+  padding: 18px;
 }
 
 .secondary:last-child {
@@ -961,11 +963,11 @@ footer a:link img, footer a:link svg, footer a:visited img, footer a:visited svg
   opacity: .7;
 }
 
-footer a:hover, footer a:focus, footer a:active {
+footer a:hover, footer a:focus, footer a:focus, footer a:active {
   color: #62bb46;
 }
 
-footer a:hover img, footer a:hover svg, footer a:focus img, footer a:focus svg, footer a:active img, footer a:active svg {
+footer a:hover img, footer a:hover svg, footer a:focus img, footer a:focus svg, footer a:focus img, footer a:focus svg, footer a:active img, footer a:active svg {
   opacity: 1;
 }
 
@@ -976,13 +978,6 @@ footer small {
   padding: 9px 0;
   color: #bcbec0;
   clear: both;
-}
-
-@media screen and (max-width: 768px) {
-  footer small {
-    text-align: left;
-    margin-top: 18px;
-  }
 }
 
 footer ul {
@@ -1059,10 +1054,49 @@ footer ul {
   min-width: 178px;
   color: #fff;
   font-size: 18px;
+  border: none;
+  outline: none;
   background-color: #62bb46;
 }
 
 .button:hover {
+  background-color: #fff;
+  color: #62bb46;
+}
+
+.filledButton {
+  border-radius: 3px;
+  padding: 18px;
+  display: inline-block;
+  text-align: center;
+  min-width: 178px;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #62bb46;
+}
+
+.filledButton:hover {
+  background-color: #fff;
+  color: #62bb46;
+}
+
+.transparentButton {
+  border-radius: 3px;
+  padding: 18px;
+  display: inline-block;
+  text-align: center;
+  min-width: 178px;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border: 1px solid #fff;
+}
+
+.transparentButton:hover {
+  border-color: #62bb46;
   background-color: #fff;
   color: #62bb46;
 }
@@ -1076,6 +1110,8 @@ footer ul {
   min-width: 178px;
   color: #fff;
   font-size: 18px;
+  border: none;
+  outline: none;
   border: 1px solid #fff;
 }
 
@@ -1103,6 +1139,29 @@ footer ul {
 .workshops img {
   border: 2px solid #62bb46;
   border-radius: 5px;
+}
+
+/* EVENTS PAGE */
+.entry h2 {
+  margin-bottom: 0;
+}
+
+.entry h3 {
+  margin: 9px 0 0;
+}
+
+.asideNewsletter input {
+  display: block;
+  width: 100%;
+  margin: 0 0 9px;
+  height: 36px;
+  padding-left: 9px;
+}
+
+.asideNewsletter button {
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=app.css.map */

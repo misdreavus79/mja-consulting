@@ -6,6 +6,8 @@
 	min-width: 178px;
 	color: #fff;
 	font-size: 18px;
+	border: none;
+	outline: none;
 	@if $type == 'filled'{
 		background-color: $brand-primary-2;
 		&:hover{

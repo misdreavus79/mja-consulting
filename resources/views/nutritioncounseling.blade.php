@@ -2,7 +2,7 @@
 
 @section('hero')
 	<section class="hero training">
-		<h1>Personal Training</h1>
+		<h1>Nutrition Counseling</h1>
 	</section>
 @endsection
 

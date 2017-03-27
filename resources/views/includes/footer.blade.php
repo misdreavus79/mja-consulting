@@ -4,13 +4,13 @@
                         <li><a href="/about">About</a></li>
                         <li><a href="/team">Team</a></li>
                         <li><a href="/services">Services</a></li>
-                        <li><a href="/workshops">Workshops</a></li>
+                        <li><a href="/events">Workshops</a></li>
                     </ul>
                     <ul class="footerLinks">
                         <li><a href="/training/personal">Personal Training</a></li>
                         <li><a href="/training/group">Group Training</a></li>
                         <li><a href="/training/youth">Youth Training</a></li>
-                        <li><a href="/schedule">Class Schedule</a></li>
+                        <li><a href="/nutrition">Nutrition Counseling</a></li>
                     </ul>
                 </nav>
                 <nav class="footerMeta partners">
