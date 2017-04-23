@@ -1,0 +1,52 @@
+.siteHeader{
+	a{
+		transition: all .2s linear;
+	}
+	.logo, .logo img{
+		display: block;
+	}
+	.logo:hover, 
+	.logo:focus{
+		opacity: .6;
+	}
+	ul, li{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	li{
+		border-bottom: 1px solid $brand-secondary;
+	}
+	a:not(.logo){
+		&:link, 
+		&:visited{
+			display: block;
+			text-decoration: none;
+			text-transform: uppercase;
+			padding: $base-spacing 0 $base-spacing $base-spacing / 2;
+			float: left;
+			color: $brand-secondary;
+			width: calc(100% - 36px);
+		}
+		&:hover, 
+		&:focus,
+		&.selected{
+			background-color: $body-bg;
+		}
+	}
+}
+
+.masthead{
+	[class^="icon-"]{
+		background-color: $body-bg;
+		padding: $base-spacing $base-spacing / 2;
+		display: block;
+		float: left;
+		font-size: $font-size-base;
+		width: 36px;
+		color: $brand-secondary;
+	}
+	[class^="icon-"].selected{
+		background-color: transparent;
+	}
+}

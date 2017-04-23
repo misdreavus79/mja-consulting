@@ -1,0 +1,16 @@
+.hero{
+	h1{
+		font-size: $font-size-heading1;
+		margin-bottom: 0;
+		color: $heading-color;
+		text-transform: uppercase;
+	}
+	h2{
+		font-size: $font-size-heading2;
+		margin-top: 0;
+		margin-bottom: $base-spacing / 2;
+		color: lighten($heading-color, 20%);
+	}
+	border-bottom: 1px solid $default-border;
+	transition: transform .1s linear;
+}

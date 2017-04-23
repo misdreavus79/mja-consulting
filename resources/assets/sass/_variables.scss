@@ -1,19 +1,13 @@
 
 // Body
-$body-bg: #000;
+$body-bg: rgba(255, 255, 255, .6);
 
 // Borders
-$laravel-border-color: #fafafa;
-$list-group-border: $laravel-border-color;
-$navbar-default-border: $laravel-border-color;
-$panel-default-border: $laravel-border-color;
-$panel-inner-border: $laravel-border-color;
+$default-border: #888;
 
 // Brands
-$brand-primary-1: rgba(188, 190, 192, 1);
-$brand-primary-2: rgba(98, 187, 70, 1);
-$brand-secondary-1: rgba(255, 242, 0, 1);
-$brand-secondary-2: #000;
+$brand-primary: #feb865;
+$brand-secondary: #004771;
 $brand-info: #8eb4cb;
 $brand-success: #2ab27b;
 $brand-warning: #cbb956;
@@ -22,8 +16,9 @@ $brand-danger: #bf5329;
 // Typography
 $font-family-sans-serif: "Lato", sans-serif;
 $font-size-base: 18px;
-$line-height-base: 1.6;
-$text-color: lighten($brand-primary-1, 10%);
+$line-height-base: 18px;
+$text-color: #9a9a9a;
+$heading-color: #5e5c5c;
 $font-size-heading1: $font-size-base * 3;
 $font-size-heading2: $font-size-base * 2; 
 $base-spacing: 18px;
@@ -36,7 +31,7 @@ $btn-default-color: $text-color;
 
 // Inputs
 $input-border: lighten($text-color, 40%);
-$input-border-focus: lighten($brand-primary-1, 25%);
+$input-border-focus: lighten($brand-primary, 25%);
 $input-color-placeholder: lighten($text-color, 30%);
 
 // Panels

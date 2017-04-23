@@ -1,31 +1,25 @@
-@extends('layouts.onecolumn')
+@extends('layouts.twocolumn')
 
 @section('hero')
-	<section class="hero about">
-		<h1>About Impruv Fitness - The IMPRUV Commitment</h1>
+	<section class="hero">
+		<h1>About MJAMangual</h1>
 	</section>
 @endsection
 
 @section('content')
-	<p>IMPRUV Fitness &amp; Wellness, a professional, boutique-styled training and professional athletic services facility, opens its doors with the goal of servicing the athletic and fitness community through all ages, all stages of athletic, sport and fitness training.</p>
-	
-	<p>Whether you are 12 years of age or 80, IMPRUV works to provide quality fitness services to the community. By properly assessing your current fitness state, reviewing your immediate and long-terms goals, developing a plan of action to attain your specified goals IMPRUV works with you to care, develop and maintain your fitness level through your training or sport season or your rehabilitative program.</p>
+	<p>MJAMangual Learning Solutions was established by Chief Learning Architect, Mrs. Melissa Alvarez Mangual, M.A. Mrs. Alvarez Mangual has been an educator, instructional designer, trainer, and coach for approximately 16 years.  Most of her work has been with non-profit organizations and educational institutions, including The Posse Foundation, Inc., The Pennsylvania State University, Habitat for Humanity International, and The Nature Conservancy. She has been recognized for her innate ability to establish meaningful and mutually beneficial relationships quickly, advancing programs and initiatives, and driving others to achieve personal and organizational success.</p>
 
-	<h3>Our services include:</h3>
+	<p>Mrs. Alvarez Mangual has a Master’s degree in Interdisciplinary Studies from DePaul University, Chicago, and a Bachelor’s degree in International Affairs from Florida State University. She is in process of completing a doctoral degree in Organizational Leadership Studies through Northeastern University. Mrs. Alvarez Mangual believes very strongly in the importance of building competence and skill, continuously engaging in personal and professional development. Recently she completed a certificate in Change Leadership through Cornell University. Mrs. Alvarez Mangual is also a former Fellow of the Intercultural Communications Institute’s Summer Institute for Intercultural Communications and obtained the Intercultural Foundations Certificate.</p>
+
+	<p>Active involvement in professional organizations is a priority for Mrs. Alvarez Mangual. She is a member of the following associations:</p>
+
 	<ul>
-		<li>Personal &amp; Rehabilitative Training;</li>
-		<li>Couples Training;</li>
-		<li>Variety of Small Group Training classes;</li>
-		<li>Stretch Sessions and Groups;</li>
-		<li>Pre &amp; PostNatal Fitness Services</li>
-		<li>Medical, Therapeutic and Sports Massage and Self-care Education;</li>
-		<li>Youth Training Programs;</li>
-		<li>Nutritional Counseling;</li>
-		<li>Fascial Movement Taping for Performance/Events, and</li>
-		<li>Additional wellness services coming soon...</li>
+		<li>International Leadership Association</li>
+		<li>Center for Creative Leadership</li>
+		<li>Human Capital Institute: The Global Association for Strategic Talent Management</li>
+		<li>ATD: Association for Talent Development</li>
+		<li>The eLearning Guild</li>
 	</ul>
 
-	<p>Having worked with various athletes of many different sports backgrounds from novice to advanced, we understand the importance of body mechanics, applied movement, posture, rest, recovery and proper conditioning, soft-tissue care and as well as nutritional guidance. More importantly we believe in the importance of the integrated role these key components play in effective functionality through movement.</p>
-
-	<p>Our assessment and training tools are based on scientific findings of proven study and experienced application. With over ten years training experience in the industry, the staff at IMPRUV Fitness &amp; Wellness will surely become the vehicle to bridge your athletic care, development and maintenance.</p>
+	<p>Over the years, Mrs. Alvarez Mangual has worked as a catalyst for change with and in various non-profit organizations and institutions. Her work has been primarily with first generation college students and young leaders, as well as, senior level executives and administrators. She is dedicated to working to improve systems and build the capacity of young people and professionals.</p>
 @endsection

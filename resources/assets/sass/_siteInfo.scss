@@ -1,0 +1,4 @@
+.siteInfo{
+	background-color: $brand-primary;
+	@include span-columns(3);
+}

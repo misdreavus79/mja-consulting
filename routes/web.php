@@ -11,47 +11,36 @@
 |
 */
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('home', ['page_title' => 'Home', 'registration_date' => date('m/d/Y')]);
 });
 
-Route::get('/', function(){
-	return view('temphome', ['page_title' => 'Impruv Fitness']);
-});
-
-Route::get('/about', function () {
+Route::get('about', function () {
     return view('about', ['page_title' => 'About']);
 });
 
-Route::get('/team', function () {
-    return view('team', ['page_title' => 'Team']);
-});
-
-Route::get('/services', function () {
+Route::get('services', function () {
     return view('services', ['page_title' => 'Services']);
 });
 
-Route::get('/events', function () {
-    return view('workshops', ['page_title' => 'Workshops']);
+Route::get('contact', function () {
+    return view('contact', ['page_title' => 'Contact Us']);
 });
 
-Route::get('/nutrition', function () {
-    return view('nutritioncounseling', ['page_title' => 'Nutrition Counseling']);
+Route::get('coaching', function () {
+    return view('interculturalcoaching', ['page_title' => 'Intercultural Coaching']);
 });
 
-Route::group(['prefix' => 'training'], function(){
-	Route::get('group', function () {
-	    return view('grouptraining', ['page_title' => 'Small Group Training']);
-	});
-	Route::get('personal', function () {
-	    return view('personaltraining', ['page_title' => 'Personal Training']);
-	});
-	Route::get('youth', function () {
-	    return view('youthtraining', ['page_title' => 'Youth Training']);
-	});
-	Route::get('online', function () {
-	    return view('onlinetraining', ['page_title' => 'Online Training']);
-	});
+Route::get('training', function () {
+    return view('training', ['page_title' => 'Training']);
+});
+
+Route::get('development', function () {
+    return view('programdevelopment', ['page_title' => 'Program Development']);
+});
+
+Route::get('thanks', function () {
+    return view('thankyou', ['page_title' => 'Thank You']);
 });
 
 //Asset Routes

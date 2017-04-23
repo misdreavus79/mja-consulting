@@ -1,0 +1,24 @@
+.contactForm{
+	@include span-columns(3 of 9);
+	label, input{
+		display: block;
+	}
+	label{
+		margin-bottom: $base-spacing / 6;
+	}
+	input, select, textarea{
+		margin-bottom: $base-spacing;
+		width: 100%;
+	}
+	input, select{
+		height: 40px;
+	}
+	textarea{
+		height: 80px;
+	}
+	button{
+		width: 100%;
+		@include button('filled');
+		transition: .1s all linear;
+	}
+}

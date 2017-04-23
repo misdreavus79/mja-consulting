@@ -1,0 +1,5 @@
+.main{
+	@include span-columns(9);
+	@include omega;
+	padding-bottom: $base-spacing;
+}

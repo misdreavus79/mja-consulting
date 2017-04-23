@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/mja-consulting":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/mja-consulting","hostpath":"/Users/misdreavus79/Work/clients/mja-consulting","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/misdreavus79/Work/clients/mja-consulting","disabled":false,"__vagrantfile":true}}}
