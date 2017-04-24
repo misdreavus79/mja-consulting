@@ -19,7 +19,7 @@
 		<p>MJAMangual Learning Solutions believes in the customization of all services to each client, based on the client needs.  The quality custom services we provide our clients include:</p>
 	</section>
 		<div class="adSquare">
-			<h3 class="icon-users"><a href="/coaching">Intercultural Coaching</a></h3>
+			<h3><a href="/coaching" class="icon-users">Intercultural Coaching</a></h3>
 			<ul>
 				<li>Personal Development</li>
 				<li>Leadership</li>
@@ -27,10 +27,10 @@
 			</ul>
 		</div>
 		<div class="adSquare">
-			<h3 class="icon-library"><a href="/training">Training</a></h3>
+			<h3><a href="/training" class="icon-library">Training</a></h3>
 		</div>
 		<div class="adSquare">
-			<h3 class="icon-bookmarks"><a href="/development">Program Development</a></h3>
+			<h3><a href="/development" class="icon-bookmarks">Program Development</a></h3>
 			<ul>
 				<li>Educational Counseling &amp; Program Development</li>
 				<li>Leadership &amp; Teambuilding Retreat Planning and Facilitation</li>
@@ -38,5 +38,6 @@
 		</div>
 	<section class="homeBlock group">
 		<p>The initial consultation is complimentary, allowing for both the potential client and consultant/coach to discuss needs, interests, and congruency with the individual and/or organization’s values.</p>
+		<a href="contact" class="cta">Schecule a Consultation</a>
 	</section>
 @endsection

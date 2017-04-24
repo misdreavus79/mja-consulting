@@ -9,7 +9,7 @@
 		font-size: $font-size-heading2;
 		margin-top: 0;
 		margin-bottom: $base-spacing / 2;
-		color: lighten($heading-color, 20%);
+		color: $brand-primary;
 	}
 	border-bottom: 1px solid $default-border;
 	transition: transform .1s linear;

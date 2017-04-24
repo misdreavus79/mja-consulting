@@ -1,0 +1,26 @@
+.adBlock{
+	margin: $base-spacing 0;
+	h3{
+		font-size: $font-size-heading2;
+		margin: 0;
+	}
+}
+.infoLeft, .infoRight{
+	@include span-columns(5 of 9);
+}
+.complimentary{
+	@include span-columns(4 of 9);
+	text-align: center;
+	[class^="icon-"]{
+		background-color: $brand-secondary;
+		color: #fff;
+		border-radius: 50%;
+		font-size: $font-size-heading1 * 2;
+		display: inline-block;
+		vertical-align: middle;
+		padding: $base-spacing * 2 $base-spacing * 3;
+	}
+}
+.break{
+	@include omega;
+}

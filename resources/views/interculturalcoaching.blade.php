@@ -8,41 +8,56 @@
 @endsection
 
 @section('content')
-	<h3>What is intercultural coaching?</h3>
-	<p>At MJAMangual Learning Solutions we view intercultural coaching as the art of facilitating the unleashing of a person’s hidden potential while expanding their worldview, intercultural sensitivity and savvy, to attain desired successes.</p>
+	<section class="adBlock group">
+		<div class="infoLeft">
+			<h3>What is intercultural coaching?</h3>
+			<p>At MJAMangual Learning Solutions we view intercultural coaching as the art of facilitating the unleashing of a person’s hidden potential while expanding their worldview, intercultural sensitivity and savvy, to attain desired successes.</p>
+		</div>
+		<div class="complimentary">
+			<span class="icon-question"></span>
+		</div>
+	</section>
+	
+	<section class="adBlockRight group">
+		<div class="complimentary"></div>
+		<div class="infoRight">
+			<h3>Who we coach</h3>
+			<ul>
+				<li>Managers/Directors</li>
+				<li>Entrepreneurs</li>
+				<li>Young Professionals</li>
+				<li>Aspiring Leaders</li>
+				<li>Visionaries</li>
+				<li>Career Switchers</li>
+			</ul>
+		</div>
+	</section>
+	<section class="adBlockLeft">
+		<h3>Our specialty</h3>
+		<ul>
+			<li>Maintaining balance in life and managing stressors</li>
+			<li>Finding your voice: have it heard and understood</li>
+			<li>Communicating effectively: in difficult situations and to maintain healthy relationships</li>
+			<li>Establishing synergy in culturally diverse groups/teams</li>
+			<li>Aligning passion with career path</li>
+		</ul>
+	</section>
+	<div class="complimentary"></div>
+	<section class="adBlockFull">
+		<h3>Our coaching process</h3>
+		<p>We will take you through a five-step process while working together to move you in the direction you envision yourself going:</p>
+	
+		<h3>GAINS Insight™</h3>
+		<ol>
+			<li><strong>G</strong>ain Clarity in your purpose, needs, and desires.</li>
+			<li><strong>A</strong>cknowledge your strengths.</li>
+			<li><strong>I</strong>nvestigate options and opportunities.</li>
+			<li><strong>N</strong>avigate through the new terrain.</li>
+			<li><strong>S</strong>ucceed in bringing your vision to life.</li>
+		</ol>
+	</section>
 
-	<h3>Who we coach</h3>
-	<ul>
-		<li>Managers/Directors</li>
-		<li>Entrepreneurs</li>
-		<li>Young Professionals</li>
-		<li>Aspiring Leaders</li>
-		<li>Visionaries</li>
-		<li>Career Switchers</li>
-	</ul>
-
-	<h3>Our specialty</h3>
-	<ul>
-		<li>Maintaining balance in life and managing stressors</li>
-		<li>Finding your voice: have it heard and understood</li>
-		<li>Communicating effectively: in difficult situations and to maintain healthy relationships</li>
-		<li>Establishing synergy in culturally diverse groups/teams</li>
-		<li>Aligning passion with career path</li>
-	</ul>
-
-	<h3>Our coaching process</h3>
-	<p>We will take you through a five-step process while working together to move you in the direction you envision yourself going:</p>
-
-	<h3>GAINS Insight™</h3>
-	<ol>
-		<li><strong>G</strong>ain Clarity in your purpose, needs, and desires.</li>
-		<li><strong>A</strong>cknowledge your strengths.</li>
-		<li><strong>I</strong>nvestigate options and opportunities.</li>
-		<li><strong>N</strong>avigate through the new terrain.</li>
-		<li><strong>S</strong>ucceed in bringing your vision to life.</li>
-	</ol>
-
-	<h3>Benefits:</h3>
+	<h3>Benefits</h3>
 	<p>Coaching provides clients the opportunity to engage in active and on-going reflection and self-care to attain and maintain a quality of life they aspire to.</p>
 	<p>Coaches help coachees see the bigger picture and the multiple paths one can take to get what it is they desire.</p>
 	<p>Coaches help people identify gaps and risks they might not have otherwise known.</p>

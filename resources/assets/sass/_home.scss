@@ -1,5 +1,5 @@
 .homeBlock{
-	margin: $base-spacing 0 $base-spacing * 2 0;
+	margin: $base-spacing 0 0 0;
 	padding-right: $base-spacing;
 
 	.icon-briefcase, .icon-rocket{
@@ -19,6 +19,10 @@
 	p{
 		margin: 0 0 $base-spacing;
 	}
+	.cta{
+		@include button('filled');
+		text-decoration: none;
+	}
 }
 .adSquare{
 	margin-bottom: $base-spacing;
@@ -33,13 +37,19 @@
 	li{
 		margin: 0 0 $base-spacing / 2 $base-spacing;
 	}
+	h3{
+		background-color: $brand-secondary;
+		padding: $base-spacing / 2 0;
+	}
 	[class^="icon-"]{
 		width: 100%;
-		background-color: $brand-secondary;
 		color: #fff;
-		padding: $base-spacing / 2 0;
+		text-decoration: none;
 		&:before{
 			margin: 0 $base-spacing / 3;
+		}
+		&:hover:before{
+			color: $brand-primary;
 		}
 	}
 }
