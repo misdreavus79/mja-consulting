@@ -23,15 +23,20 @@
 	</section>
 	<section class="adBlock group">
 		<div class="complimentary">
-			<img src="https://storage.googleapis.com/sca/mja/learning-startup.jpg" style="border-radius: 0;">
+			<img src="https://storage.googleapis.com/sca/mja/learning-startup.jpg" class="border" style="border-radius: 0;">
 		</div>
 		<div class="infoRight">
 			<h3>Education Program Specialty:</h3>
 			<p>MJAMangual Learning Solutions specializes in developing educational programs for young adults. Our Executive Director and Principal Consultant has a track record of reviving failing programs and establishing new and successful initiatives at the collegiate level.</p>
 		</div>
 	</section>
-
-	<h3>Who we work with:</h3>
-	<p>MJAMangual Learning Solutions is available to consult with instructional designers, teachers, social service professionals, and educational counselors and advisors on program review, re-design, development, and coordination.</p>
-
+	<section class="adBlock group">
+		<div class="infoLeft">
+			<h3>Who we work with:</h3>
+			<p>MJAMangual Learning Solutions is available to consult with instructional designers, teachers, social service professionals, and educational counselors and advisors on program review, re-design, development, and coordination.</p>
+		</div>
+		<div class="complimentary">
+			<img src="https://storage.googleapis.com/sca/mja/learning-startup.jpg" class="border" style="border-radius: 0;">
+		</div>
+	</section>
 @endsection
