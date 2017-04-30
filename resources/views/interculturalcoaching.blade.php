@@ -17,9 +17,8 @@
 			<span class="icon-question"></span>
 		</div>
 	</section>
-	
-	<section class="adBlockRight group">
-		<div class="complimentary"></div>
+	<section class="adBlock group">
+		<div class="complimentary"><img src="//storage.googleapis.com/sca/mja/chatter.jpg"></div>
 		<div class="infoRight">
 			<h3>Who we coach</h3>
 			<ul>
@@ -32,29 +31,33 @@
 			</ul>
 		</div>
 	</section>
-	<section class="adBlockLeft">
-		<h3>Our specialty</h3>
-		<ul>
-			<li>Maintaining balance in life and managing stressors</li>
-			<li>Finding your voice: have it heard and understood</li>
-			<li>Communicating effectively: in difficult situations and to maintain healthy relationships</li>
-			<li>Establishing synergy in culturally diverse groups/teams</li>
-			<li>Aligning passion with career path</li>
-		</ul>
+	<section class="adBlock group">
+		<div class="infoLeft">
+			<h3>Our specialty</h3>
+			<ul>
+				<li>Maintaining balance in life and managing stressors</li>
+				<li>Finding your voice: have it heard and understood</li>
+				<li>Communicating effectively: in difficult situations and to maintain healthy relationships</li>
+				<li>Establishing synergy in culturally diverse groups/teams</li>
+				<li>Aligning passion with career path</li>
+			</ul>
+		</div>
+		<div class="complimentary"><img src="//storage.googleapis.com/sca/mja/lenses.jpg"></div>
 	</section>
-	<div class="complimentary"></div>
-	<section class="adBlockFull">
+	
+	<section class="adBlock">
 		<h3>Our coaching process</h3>
 		<p>We will take you through a five-step process while working together to move you in the direction you envision yourself going:</p>
-	
-		<h3>GAINS Insight™</h3>
-		<ol>
-			<li><strong>G</strong>ain Clarity in your purpose, needs, and desires.</li>
-			<li><strong>A</strong>cknowledge your strengths.</li>
-			<li><strong>I</strong>nvestigate options and opportunities.</li>
-			<li><strong>N</strong>avigate through the new terrain.</li>
-			<li><strong>S</strong>ucceed in bringing your vision to life.</li>
-		</ol>
+		<div class="infoFull">
+			<h3>GAINS Insight™</h3>
+			<ol class="gains group">
+				<li><strong>G</strong>ain Clarity in your purpose, needs, and desires.</li>
+				<li><strong>A</strong>cknowledge your strengths.</li>
+				<li><strong>I</strong>nvestigate options and opportunities.</li>
+				<li><strong>N</strong>avigate through the new terrain.</li>
+				<li><strong>S</strong>ucceed in bringing your vision to life.</li>
+			</ol>
+		</div>
 	</section>
 
 	<h3>Benefits</h3>

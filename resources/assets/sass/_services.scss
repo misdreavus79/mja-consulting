@@ -1,5 +1,5 @@
 .adBlock{
-	margin: $base-spacing 0;
+	margin: $base-spacing * 3 0;
 	h3{
 		font-size: $font-size-heading2;
 		margin: 0;
@@ -20,7 +20,24 @@
 		vertical-align: middle;
 		padding: $base-spacing * 2 $base-spacing * 3;
 	}
+	img{
+		border-radius: 50%;
+	}
 }
 .break{
 	@include omega;
+}
+.infoFull{
+	h3{
+		text-align: center;
+	}
+}
+.gains{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	li{
+		float: left;
+		width: 20%;
+	}
 }

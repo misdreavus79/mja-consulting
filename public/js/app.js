@@ -69,7 +69,7 @@
 /***/ function(module, exports) {
 
 "use strict";
-eval("'use strict';\n\ndocument.addEventListener('DOMContentLoaded', function () {\n\tdocument.querySelector('.siteInfo').style.height = document.querySelector('.main').scrollHeight + 'px';\n});//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9yZXNvdXJjZXMvYXNzZXRzL2pzL2FwcC5qcz84YjY3Il0sInNvdXJjZXNDb250ZW50IjpbIid1c2Ugc3RyaWN0JztcblxuZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignRE9NQ29udGVudExvYWRlZCcsIGZ1bmN0aW9uICgpIHtcblx0ZG9jdW1lbnQucXVlcnlTZWxlY3RvcignLnNpdGVJbmZvJykuc3R5bGUuaGVpZ2h0ID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignLm1haW4nKS5zY3JvbGxIZWlnaHQgKyAncHgnO1xufSk7XG5cblxuLy8gV0VCUEFDSyBGT09URVIgLy9cbi8vIHJlc291cmNlcy9hc3NldHMvanMvYXBwLmpzIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlUm9vdCI6IiJ9");
+eval("'use strict';\n\nwindow.addEventListener('load', function () {\n\tdocument.querySelector('.siteInfo').style.height = document.querySelector('.main').offsetHeight + 'px';\n});//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9yZXNvdXJjZXMvYXNzZXRzL2pzL2FwcC5qcz84YjY3Il0sInNvdXJjZXNDb250ZW50IjpbIid1c2Ugc3RyaWN0Jztcblxud2luZG93LmFkZEV2ZW50TGlzdGVuZXIoJ2xvYWQnLCBmdW5jdGlvbiAoKSB7XG5cdGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5zaXRlSW5mbycpLnN0eWxlLmhlaWdodCA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5tYWluJykub2Zmc2V0SGVpZ2h0ICsgJ3B4Jztcbn0pO1xuXG5cbi8vIFdFQlBBQ0sgRk9PVEVSIC8vXG4vLyByZXNvdXJjZXMvYXNzZXRzL2pzL2FwcC5qcyJdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZVJvb3QiOiIifQ==");
 
 /***/ }
 /******/ ]);
