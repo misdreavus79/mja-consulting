@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
 @font-face {
   font-family: 'icomoon';
-  src: url("fonts/icomoon.eot?mvvxwj");
-  src: url("fonts/icomoon.eot?mvvxwj#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?mvvxwj") format("truetype"), url("fonts/icomoon.woff?mvvxwj") format("woff"), url("fonts/icomoon.svg?mvvxwj#icomoon") format("svg");
+  src: url("fonts/icomoon.eot?s4wm1d");
+  src: url("fonts/icomoon.eot?s4wm1d#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?s4wm1d") format("truetype"), url("fonts/icomoon.woff?s4wm1d") format("woff"), url("fonts/icomoon.svg?s4wm1d#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -21,8 +21,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-checkmark:before {
+  content: "\e902";
+}
+
+.icon-cancel:before {
+  content: "\e903";
+}
+
 .icon-presentation:before {
   content: "\e900";
+}
+
+.icon-arrow_drop_down:before {
+  content: "\e5c5";
+}
+
+.icon-keyboard_arrow_down:before {
+  content: "\e313";
 }
 
 .icon-live_help:before {
@@ -539,8 +555,6 @@ html {
 }
 
 body:before {
-  background-image: -webkit-linear-gradient(left, transparent 0, #eee 0, #eee 6.1721523119%, transparent 6.1721523119%, transparent 8.5298043353%, #eee 8.5298043353%, #eee 14.7019566472%, transparent 14.7019566472%, transparent 17.0596086706%, #eee 17.0596086706%, #eee 23.2317609825%, transparent 23.2317609825%, transparent 25.5894130058%, #eee 25.5894130058%, #eee 31.7615653177%, transparent 31.7615653177%, transparent 34.1192173411%, #eee 34.1192173411%, #eee 40.291369653%, transparent 40.291369653%, transparent 42.6490216764%, #eee 42.6490216764%, #eee 48.8211739883%, transparent 48.8211739883%, transparent 51.1788260117%, #eee 51.1788260117%, #eee 57.3509783236%, transparent 57.3509783236%, transparent 59.708630347%, #eee 59.708630347%, #eee 65.8807826589%, transparent 65.8807826589%, transparent 68.2384346823%, #eee 68.2384346823%, #eee 74.4105869942%, transparent 74.4105869942%, transparent 76.7682390175%, #eee 76.7682390175%, #eee 82.9403913294%, transparent 82.9403913294%, transparent 85.2980433528%, #eee 85.2980433528%, #eee 91.4701956647%, transparent 91.4701956647%, transparent 93.8278476881%, #eee 93.8278476881%, #eee 100%, transparent 100%);
-  background-image: -webkit-linear-gradient(right, transparent 0, #eee 0, #eee 6.1721523119%, transparent 6.1721523119%, transparent 8.5298043353%, #eee 8.5298043353%, #eee 14.7019566472%, transparent 14.7019566472%, transparent 17.0596086706%, #eee 17.0596086706%, #eee 23.2317609825%, transparent 23.2317609825%, transparent 25.5894130058%, #eee 25.5894130058%, #eee 31.7615653177%, transparent 31.7615653177%, transparent 34.1192173411%, #eee 34.1192173411%, #eee 40.291369653%, transparent 40.291369653%, transparent 42.6490216764%, #eee 42.6490216764%, #eee 48.8211739883%, transparent 48.8211739883%, transparent 51.1788260117%, #eee 51.1788260117%, #eee 57.3509783236%, transparent 57.3509783236%, transparent 59.708630347%, #eee 59.708630347%, #eee 65.8807826589%, transparent 65.8807826589%, transparent 68.2384346823%, #eee 68.2384346823%, #eee 74.4105869942%, transparent 74.4105869942%, transparent 76.7682390175%, #eee 76.7682390175%, #eee 82.9403913294%, transparent 82.9403913294%, transparent 85.2980433528%, #eee 85.2980433528%, #eee 91.4701956647%, transparent 91.4701956647%, transparent 93.8278476881%, #eee 93.8278476881%, #eee 100%, transparent 100%);
   background-image: linear-gradient(to left, transparent 0, #eee 0, #eee 6.1721523119%, transparent 6.1721523119%, transparent 8.5298043353%, #eee 8.5298043353%, #eee 14.7019566472%, transparent 14.7019566472%, transparent 17.0596086706%, #eee 17.0596086706%, #eee 23.2317609825%, transparent 23.2317609825%, transparent 25.5894130058%, #eee 25.5894130058%, #eee 31.7615653177%, transparent 31.7615653177%, transparent 34.1192173411%, #eee 34.1192173411%, #eee 40.291369653%, transparent 40.291369653%, transparent 42.6490216764%, #eee 42.6490216764%, #eee 48.8211739883%, transparent 48.8211739883%, transparent 51.1788260117%, #eee 51.1788260117%, #eee 57.3509783236%, transparent 57.3509783236%, transparent 59.708630347%, #eee 59.708630347%, #eee 65.8807826589%, transparent 65.8807826589%, transparent 68.2384346823%, #eee 68.2384346823%, #eee 74.4105869942%, transparent 74.4105869942%, transparent 76.7682390175%, #eee 76.7682390175%, #eee 82.9403913294%, transparent 82.9403913294%, transparent 85.2980433528%, #eee 85.2980433528%, #eee 91.4701956647%, transparent 91.4701956647%, transparent 93.8278476881%, #eee 93.8278476881%, #eee 100%, transparent 100%);
   content: "";
   display: inline-block;
@@ -569,7 +583,6 @@ body:before {
 }
 
 .siteHeader a {
-  -webkit-transition: all .2s linear;
   transition: all .2s linear;
 }
 
@@ -643,8 +656,7 @@ body:before {
 }
 
 .hero {
-  border-bottom: 1px solid #888;
-  -webkit-transition: -webkit-transform .1s linear;
+  border-bottom: 1px solid #ccc;
   transition: -webkit-transform .1s linear;
   transition: transform .1s linear;
   transition: transform .1s linear, -webkit-transform .1s linear;
@@ -704,7 +716,7 @@ body:before {
   text-decoration: none;
 }
 
-.homeBlock .cta:hover {
+.homeBlock .cta:hover, .homeBlock .cta:focus {
   background-color: #fff;
   color: #feb865;
   cursor: pointer;
@@ -755,15 +767,13 @@ body:before {
   color: #feb865;
 }
 
-.contactForm {
-  float: left;
-  display: block;
-  margin-right: 3.1684362651%;
-  width: 31.2210424899%;
+.description {
+  padding-top: 9px;
 }
 
-.contactForm:last-child {
-  margin-right: 0;
+.description p {
+  font-size: 18px;
+  line-height: 27px;
 }
 
 .contactForm label, .contactForm input {
@@ -779,12 +789,10 @@ body:before {
   width: 100%;
 }
 
-.contactForm input, .contactForm select {
-  height: 40px;
-}
-
-.contactForm textarea {
-  height: 80px;
+.contactForm input, .contactForm select, .contactForm textarea {
+  height: 50px;
+  border: 1px solid #ccc;
+  padding-left: 9px;
 }
 
 .contactForm button {
@@ -800,24 +808,93 @@ body:before {
   outline: none;
   background-color: #feb865;
   border-color: transparent;
-  -webkit-transition: .1s all linear;
   transition: .1s all linear;
 }
 
-.contactForm button:hover {
+.contactForm button:hover, .contactForm button:focus {
   background-color: #fff;
   color: #feb865;
   cursor: pointer;
   border-color: #feb865;
 }
 
+.contactForm select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  background: url("//storage.googleapis.com/sca/mja/keyboard_arrow_down.svg") no-repeat right 50%;
+}
+
+.contactForm select::-ms-expand {
+  display: none;
+}
+
+.contactForm fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+  float: left;
+  display: block;
+  margin-right: 3.1684362651%;
+  width: 31.2210424899%;
+}
+
+.contactForm fieldset:last-child {
+  margin-right: 0;
+}
+
+.contactForm fieldset:nth-of-type(3n) {
+  margin-right: 0;
+}
+
 .adBlock {
-  margin: 54px 0;
+  margin: 18px 0 126px;
+}
+
+.adBlock:last-of-type {
+  margin-bottom: 0;
+}
+
+.adBlock h3, .adBlock h4 {
+  margin: 0;
 }
 
 .adBlock h3 {
-  font-size: 36px;
-  margin: 0;
+  font-size: 24px;
+  color: #004771;
+}
+
+.adBlock ul, .adBlock ol {
+  list-style: none;
+  padding: 0;
+}
+
+.adBlock .icon-pen {
+  margin-bottom: 9px;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.adBlock .icon-pen:before {
+  padding: 9px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+  color: #004771;
+}
+
+.adBlock a:link {
+  color: #004771;
+  text-decoration: underline;
+}
+
+.adBlock a:visited {
+  color: #00273e;
+}
+
+.adBlock a:hover, .adBlock a:focus {
+  color: #feb865;
 }
 
 .infoLeft, .infoRight {
@@ -851,22 +928,27 @@ body:before {
   display: inline-block;
   vertical-align: middle;
   padding: 36px 54px;
+  -webkit-shape-outside: circle();
+  shape-outside: circle();
 }
 
 .complimentary img {
   border-radius: 50%;
 }
 
+.complimentary .border {
+  border: 5px solid #feb865;
+}
+
 .break {
   margin-right: 0;
 }
 
-.infoFull h3 {
+.infoFull h3, .infoFull h4 {
   text-align: center;
 }
 
 .gains {
-  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -874,6 +956,25 @@ body:before {
 .gains li {
   float: left;
   width: 20%;
+  text-align: center;
+}
+
+.gains figure {
+  margin: 0;
+  padding: 0;
+}
+
+.gains .gainsHeader {
+  background-color: #004771;
+  border-radius: 50%;
+  color: #fff;
+  display: block;
+  margin: 18px auto;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px;
 }
 
 .group::after {

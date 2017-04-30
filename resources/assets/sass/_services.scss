@@ -1,8 +1,42 @@
 .adBlock{
-	margin: $base-spacing * 3 0;
-	h3{
-		font-size: $font-size-heading2;
+	margin: $base-spacing 0 $base-spacing * 7;
+	&:last-of-type{
+		margin-bottom: 0;
+	}
+	h3, h4{
 		margin: 0;
+	}
+	h3{
+		font-size: 24px;
+		color: $brand-secondary;
+	}
+	ul, ol{
+		list-style: none;
+		padding: 0;
+	}
+	.icon-pen{
+		margin-bottom: $base-spacing / 2;
+		font-size: $font-size-base;
+		line-height: $line-height-base;
+	}
+	.icon-pen:before{
+		padding: $base-spacing / 2;
+		display: inline-block;
+		vertical-align: middle;
+		font-size: $font-size-base;
+		color: $brand-secondary;
+	}
+	a{
+		&:link{
+			color: $brand-secondary;
+			text-decoration: underline;
+		}
+		&:visited{
+			color: darken($brand-secondary, 10%);
+		}
+		&:hover, &:focus{
+			color: $brand-primary;
+		}
 	}
 }
 .infoLeft, .infoRight{
@@ -19,25 +53,45 @@
 		display: inline-block;
 		vertical-align: middle;
 		padding: $base-spacing * 2 $base-spacing * 3;
+		shape-outside: circle();
 	}
 	img{
 		border-radius: 50%;
+	}
+	.border{
+		border: 5px solid $brand-primary;
 	}
 }
 .break{
 	@include omega;
 }
 .infoFull{
-	h3{
+	h3, h4{
 		text-align: center;
 	}
 }
 .gains{
-	list-style: none;
 	margin: 0;
 	padding: 0;
 	li{
 		float: left;
 		width: 20%;
+		text-align: center;
+	}
+	figure{
+		margin: 0;
+		padding: 0;
+	}
+	.gainsHeader{
+		background-color: $brand-secondary;
+		border-radius: 50%;
+		color: #fff;
+		display: block;
+		margin: $base-spacing auto;
+		width: 50px;
+		height: 50px;
+		text-align: center;
+		font-weight: bold;
+		padding: 15px;
 	}
 }

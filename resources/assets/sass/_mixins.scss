@@ -11,7 +11,7 @@
 	@if $type == 'filled'{
 		background-color: $brand-primary;
 		border-color: transparent;
-		&:hover{
+		&:hover, &:focus{
 			background-color: #fff;
 			color: $brand-primary;
 			cursor: pointer;
@@ -19,7 +19,7 @@
 		}
 	}@else if $type == 'transparent' {
 		border-color: #fff;
-		&:hover{
+		&:hover, &:focus{
 			border-color: $brand-primary;
 			background-color: #fff;
 			color: $brand-primary;

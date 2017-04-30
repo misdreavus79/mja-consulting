@@ -1,5 +1,11 @@
+.description{
+	padding-top: $base-spacing / 2;
+	p{
+		font-size: $font-size-base;
+		line-height: $line-height-base * 1.5;
+	}
+}
 .contactForm{
-	@include span-columns(3 of 9);
 	label, input{
 		display: block;
 	}
@@ -10,15 +16,33 @@
 		margin-bottom: $base-spacing;
 		width: 100%;
 	}
-	input, select{
-		height: 40px;
-	}
-	textarea{
-		height: 80px;
+	input, select, textarea{
+		height: 50px;
+		border: 1px solid $default-border;
+		padding-left: $base-spacing / 2;
 	}
 	button{
 		width: 100%;
 		@include button('filled');
 		transition: .1s all linear;
+	}
+	select{
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		appearance: none;	
+		border-radius: 0;
+		background: url('//storage.googleapis.com/sca/mja/keyboard_arrow_down.svg') no-repeat right 50%;
+		&::-ms-expand{
+			display: none;
+		}
+	}
+	fieldset{
+		margin: 0;
+		padding: 0;
+		border: none;
+		@include span-columns(3 of 9);
+		&:nth-of-type(3n){
+			@include omega;
+		}
 	}
 }
