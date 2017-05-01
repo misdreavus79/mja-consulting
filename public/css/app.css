@@ -555,8 +555,6 @@ html {
 }
 
 body:before {
-  background-image: -webkit-linear-gradient(left, transparent 0, #eee 0, #eee 6.1721523119%, transparent 6.1721523119%, transparent 8.5298043353%, #eee 8.5298043353%, #eee 14.7019566472%, transparent 14.7019566472%, transparent 17.0596086706%, #eee 17.0596086706%, #eee 23.2317609825%, transparent 23.2317609825%, transparent 25.5894130058%, #eee 25.5894130058%, #eee 31.7615653177%, transparent 31.7615653177%, transparent 34.1192173411%, #eee 34.1192173411%, #eee 40.291369653%, transparent 40.291369653%, transparent 42.6490216764%, #eee 42.6490216764%, #eee 48.8211739883%, transparent 48.8211739883%, transparent 51.1788260117%, #eee 51.1788260117%, #eee 57.3509783236%, transparent 57.3509783236%, transparent 59.708630347%, #eee 59.708630347%, #eee 65.8807826589%, transparent 65.8807826589%, transparent 68.2384346823%, #eee 68.2384346823%, #eee 74.4105869942%, transparent 74.4105869942%, transparent 76.7682390175%, #eee 76.7682390175%, #eee 82.9403913294%, transparent 82.9403913294%, transparent 85.2980433528%, #eee 85.2980433528%, #eee 91.4701956647%, transparent 91.4701956647%, transparent 93.8278476881%, #eee 93.8278476881%, #eee 100%, transparent 100%);
-  background-image: -webkit-linear-gradient(right, transparent 0, #eee 0, #eee 6.1721523119%, transparent 6.1721523119%, transparent 8.5298043353%, #eee 8.5298043353%, #eee 14.7019566472%, transparent 14.7019566472%, transparent 17.0596086706%, #eee 17.0596086706%, #eee 23.2317609825%, transparent 23.2317609825%, transparent 25.5894130058%, #eee 25.5894130058%, #eee 31.7615653177%, transparent 31.7615653177%, transparent 34.1192173411%, #eee 34.1192173411%, #eee 40.291369653%, transparent 40.291369653%, transparent 42.6490216764%, #eee 42.6490216764%, #eee 48.8211739883%, transparent 48.8211739883%, transparent 51.1788260117%, #eee 51.1788260117%, #eee 57.3509783236%, transparent 57.3509783236%, transparent 59.708630347%, #eee 59.708630347%, #eee 65.8807826589%, transparent 65.8807826589%, transparent 68.2384346823%, #eee 68.2384346823%, #eee 74.4105869942%, transparent 74.4105869942%, transparent 76.7682390175%, #eee 76.7682390175%, #eee 82.9403913294%, transparent 82.9403913294%, transparent 85.2980433528%, #eee 85.2980433528%, #eee 91.4701956647%, transparent 91.4701956647%, transparent 93.8278476881%, #eee 93.8278476881%, #eee 100%, transparent 100%);
   background-image: linear-gradient(to left, transparent 0, #eee 0, #eee 6.1721523119%, transparent 6.1721523119%, transparent 8.5298043353%, #eee 8.5298043353%, #eee 14.7019566472%, transparent 14.7019566472%, transparent 17.0596086706%, #eee 17.0596086706%, #eee 23.2317609825%, transparent 23.2317609825%, transparent 25.5894130058%, #eee 25.5894130058%, #eee 31.7615653177%, transparent 31.7615653177%, transparent 34.1192173411%, #eee 34.1192173411%, #eee 40.291369653%, transparent 40.291369653%, transparent 42.6490216764%, #eee 42.6490216764%, #eee 48.8211739883%, transparent 48.8211739883%, transparent 51.1788260117%, #eee 51.1788260117%, #eee 57.3509783236%, transparent 57.3509783236%, transparent 59.708630347%, #eee 59.708630347%, #eee 65.8807826589%, transparent 65.8807826589%, transparent 68.2384346823%, #eee 68.2384346823%, #eee 74.4105869942%, transparent 74.4105869942%, transparent 76.7682390175%, #eee 76.7682390175%, #eee 82.9403913294%, transparent 82.9403913294%, transparent 85.2980433528%, #eee 85.2980433528%, #eee 91.4701956647%, transparent 91.4701956647%, transparent 93.8278476881%, #eee 93.8278476881%, #eee 100%, transparent 100%);
   content: "";
   display: inline-block;
@@ -585,7 +583,6 @@ body:before {
 }
 
 .siteHeader a {
-  -webkit-transition: all .2s linear;
   transition: all .2s linear;
 }
 
@@ -660,7 +657,6 @@ body:before {
 
 .hero {
   border-bottom: 1px solid #ccc;
-  -webkit-transition: -webkit-transform .1s linear;
   transition: -webkit-transform .1s linear;
   transition: transform .1s linear;
   transition: transform .1s linear, -webkit-transform .1s linear;
@@ -771,10 +767,6 @@ body:before {
   color: #feb865;
 }
 
-.description {
-  padding-top: 9px;
-}
-
 .description p {
   font-size: 18px;
   line-height: 27px;
@@ -812,7 +804,6 @@ body:before {
   outline: none;
   background-color: #feb865;
   border-color: transparent;
-  -webkit-transition: .1s all linear;
   transition: .1s all linear;
 }
 
@@ -875,6 +866,10 @@ body:before {
   padding: 0;
 }
 
+.adBlock p {
+  font-size: 18px;
+}
+
 .adBlock .icon-pen {
   margin-bottom: 9px;
   font-size: 18px;
@@ -902,6 +897,14 @@ body:before {
 
 .adBlock a:hover, .adBlock a:focus {
   color: #feb865;
+}
+
+.adBlock .trainingList {
+  margin-bottom: 0;
+}
+
+.adBlock .trainingList li:last-of-type {
+  margin-bottom: 0;
 }
 
 .infoLeft, .infoRight {
@@ -944,7 +947,9 @@ body:before {
 }
 
 .complimentary .border {
-  border: 5px solid #feb865;
+  border: 3px solid #feb865;
+  border-radius: 0;
+  margin-top: 9px;
 }
 
 .break {
@@ -982,6 +987,31 @@ body:before {
   text-align: center;
   font-weight: bold;
   padding: 15px;
+}
+
+.about p {
+  font-size: 18px;
+}
+
+.about ul, .about ol {
+  list-style: none;
+  padding: 0;
+}
+
+.about .icon-pen {
+  margin-bottom: 9px;
+  font-size: 18px;
+  line-height: 18px;
+  text-indent: -18px;
+  margin-left: 24px;
+}
+
+.about .icon-pen:before {
+  padding: 9px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+  color: #004771;
 }
 
 .group::after {

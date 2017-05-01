@@ -1,0 +1,23 @@
+.about{
+	p{
+		font-size: $font-size-base;
+	}
+	ul, ol{
+		list-style: none;
+		padding: 0;
+	}
+	.icon-pen{
+		margin-bottom: $base-spacing / 2;
+		font-size: $font-size-base;
+		line-height: $line-height-base;
+		text-indent: -$base-spacing;
+		margin-left: ($base-spacing / 3 + $base-spacing);
+	}
+	.icon-pen:before{
+		padding: $base-spacing / 2;
+		display: inline-block;
+		vertical-align: middle;
+		font-size: $font-size-base;
+		color: $brand-secondary;
+	}
+}

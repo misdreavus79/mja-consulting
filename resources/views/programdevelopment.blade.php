@@ -23,7 +23,7 @@
 	</section>
 	<section class="adBlock group">
 		<div class="complimentary">
-			<img src="https://storage.googleapis.com/sca/mja/learning-startup.jpg" class="border" style="border-radius: 0;">
+			<img src="//storage.googleapis.com/sca/mja/apple-books.jpg" class="border"">
 		</div>
 		<div class="infoRight">
 			<h3>Education Program Specialty:</h3>
@@ -36,7 +36,7 @@
 			<p>MJAMangual Learning Solutions is available to consult with instructional designers, teachers, social service professionals, and educational counselors and advisors on program review, re-design, development, and coordination.</p>
 		</div>
 		<div class="complimentary">
-			<img src="https://storage.googleapis.com/sca/mja/learning-startup.jpg" class="border" style="border-radius: 0;">
+			<img src="//storage.googleapis.com/sca/mja/learning-startup.jpg" class="border"">
 		</div>
 	</section>
 @endsection
