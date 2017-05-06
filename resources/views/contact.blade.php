@@ -40,7 +40,7 @@
 		</fieldset>
 		<fieldset>
 			<label for="need">Brief Description of Project and Need</label>
-			<textarea id="need" name="need"></textarea>
+			<textarea id="texteditor" name="need"></textarea>
 		</fieldset>
 		<fieldset>
 			<label for="budget">Budget</label>
