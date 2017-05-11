@@ -9,7 +9,7 @@
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon", "Lato", sans-serif !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -825,6 +825,8 @@ body:before {
   appearance: none;
   border-radius: 0;
   background: url("//storage.googleapis.com/sca/mja/keyboard_arrow_down.svg") no-repeat right 50%;
+  background-size: 36px;
+  font-family: "Lato", sans-serif;
 }
 
 .contactForm select::-ms-expand {

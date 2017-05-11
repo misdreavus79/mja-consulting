@@ -31,9 +31,11 @@
 		appearance: none;	
 		border-radius: 0;
 		background: url('//storage.googleapis.com/sca/mja/keyboard_arrow_down.svg') no-repeat right 50%;
+		background-size: 36px;
 		&::-ms-expand{
 			display: none;
 		}
+		font-family: $font-family-sans-serif;
 	}
 	fieldset{
 		margin: 0;
