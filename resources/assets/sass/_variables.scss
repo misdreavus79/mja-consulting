@@ -45,3 +45,27 @@ $small-laptop: 1280;
 $large-tablet: 1024;
 $small-tablet: 960;
 $mobile: 768;
+
+@include media(max-width, 1920px){
+	$viewport: $4k;
+}
+@include media(max-width, 1440px){
+	$viewport: $hd;
+}
+@include media(max-width, 1280px){
+	$viewport: $large-laptop;
+}
+@include media(max-width, 1024px){
+	$viewport: $small-laptop;
+}
+@include media(max-width, 960px){
+	$viewport: $large-tablet;
+}
+@include media(max-width, 768px){
+	$viewport: $small-tablet;
+}
+
+$image-path: '//storage.googleapis.com/sca/mja' !default;
+$bg-path: 'backgrounds' !default;
+$extension: 'png' !default;
+$retina: '@2x';
