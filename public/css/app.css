@@ -554,22 +554,58 @@ html {
   box-sizing: inherit;
 }
 
-body:before {
-  background-image: -webkit-linear-gradient(left, transparent 0, #eee 0, #eee 6.1721523119%, transparent 6.1721523119%, transparent 8.5298043353%, #eee 8.5298043353%, #eee 14.7019566472%, transparent 14.7019566472%, transparent 17.0596086706%, #eee 17.0596086706%, #eee 23.2317609825%, transparent 23.2317609825%, transparent 25.5894130058%, #eee 25.5894130058%, #eee 31.7615653177%, transparent 31.7615653177%, transparent 34.1192173411%, #eee 34.1192173411%, #eee 40.291369653%, transparent 40.291369653%, transparent 42.6490216764%, #eee 42.6490216764%, #eee 48.8211739883%, transparent 48.8211739883%, transparent 51.1788260117%, #eee 51.1788260117%, #eee 57.3509783236%, transparent 57.3509783236%, transparent 59.708630347%, #eee 59.708630347%, #eee 65.8807826589%, transparent 65.8807826589%, transparent 68.2384346823%, #eee 68.2384346823%, #eee 74.4105869942%, transparent 74.4105869942%, transparent 76.7682390175%, #eee 76.7682390175%, #eee 82.9403913294%, transparent 82.9403913294%, transparent 85.2980433528%, #eee 85.2980433528%, #eee 91.4701956647%, transparent 91.4701956647%, transparent 93.8278476881%, #eee 93.8278476881%, #eee 100%, transparent 100%);
-  background-image: -webkit-linear-gradient(right, transparent 0, #eee 0, #eee 6.1721523119%, transparent 6.1721523119%, transparent 8.5298043353%, #eee 8.5298043353%, #eee 14.7019566472%, transparent 14.7019566472%, transparent 17.0596086706%, #eee 17.0596086706%, #eee 23.2317609825%, transparent 23.2317609825%, transparent 25.5894130058%, #eee 25.5894130058%, #eee 31.7615653177%, transparent 31.7615653177%, transparent 34.1192173411%, #eee 34.1192173411%, #eee 40.291369653%, transparent 40.291369653%, transparent 42.6490216764%, #eee 42.6490216764%, #eee 48.8211739883%, transparent 48.8211739883%, transparent 51.1788260117%, #eee 51.1788260117%, #eee 57.3509783236%, transparent 57.3509783236%, transparent 59.708630347%, #eee 59.708630347%, #eee 65.8807826589%, transparent 65.8807826589%, transparent 68.2384346823%, #eee 68.2384346823%, #eee 74.4105869942%, transparent 74.4105869942%, transparent 76.7682390175%, #eee 76.7682390175%, #eee 82.9403913294%, transparent 82.9403913294%, transparent 85.2980433528%, #eee 85.2980433528%, #eee 91.4701956647%, transparent 91.4701956647%, transparent 93.8278476881%, #eee 93.8278476881%, #eee 100%, transparent 100%);
-  background-image: linear-gradient(to left, transparent 0, #eee 0, #eee 6.1721523119%, transparent 6.1721523119%, transparent 8.5298043353%, #eee 8.5298043353%, #eee 14.7019566472%, transparent 14.7019566472%, transparent 17.0596086706%, #eee 17.0596086706%, #eee 23.2317609825%, transparent 23.2317609825%, transparent 25.5894130058%, #eee 25.5894130058%, #eee 31.7615653177%, transparent 31.7615653177%, transparent 34.1192173411%, #eee 34.1192173411%, #eee 40.291369653%, transparent 40.291369653%, transparent 42.6490216764%, #eee 42.6490216764%, #eee 48.8211739883%, transparent 48.8211739883%, transparent 51.1788260117%, #eee 51.1788260117%, #eee 57.3509783236%, transparent 57.3509783236%, transparent 59.708630347%, #eee 59.708630347%, #eee 65.8807826589%, transparent 65.8807826589%, transparent 68.2384346823%, #eee 68.2384346823%, #eee 74.4105869942%, transparent 74.4105869942%, transparent 76.7682390175%, #eee 76.7682390175%, #eee 82.9403913294%, transparent 82.9403913294%, transparent 85.2980433528%, #eee 85.2980433528%, #eee 91.4701956647%, transparent 91.4701956647%, transparent 93.8278476881%, #eee 93.8278476881%, #eee 100%, transparent 100%);
-  content: "";
-  display: inline-block;
-  height: 100%;
-  left: 0;
-  margin: 0 auto;
-  max-width: 1200px;
-  opacity: 0.4;
-  pointer-events: none;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  z-index: -1;
+@media screen and (max-width: 1920px) {
+  body {
+    background-image: url("//storage.googleapis.com/sca/mja/backgrounds/man-reading-2560.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  body {
+    background-image: url("//storage.googleapis.com/sca/mja/backgrounds/man-reading-1920.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  body {
+    background-image: url("//storage.googleapis.com/sca/mja/backgrounds/man-reading-1440.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-image: url("//storage.googleapis.com/sca/mja/backgrounds/man-reading-1280.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    background-image: url("//storage.googleapis.com/sca/mja/backgrounds/man-reading-1024.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: max-width) {
+  body {
+    background-image: url("//storage.googleapis.com/sca/mja/backgrounds/man-reading-960.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
 }
 
 .siteInfo {
@@ -619,11 +655,11 @@ body:before {
 }
 
 .siteHeader a:not(.logo):hover, .siteHeader a:not(.logo):focus, .siteHeader a:not(.logo).selected {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .masthead [class^="icon-"] {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 18px 9px;
   display: block;
   float: left;
@@ -652,6 +688,7 @@ body:before {
   width: 74.4105869942%;
   margin-right: 0;
   padding-bottom: 18px;
+  padding-right: 2.35%;
 }
 
 .main:last-child {
@@ -1031,7 +1068,7 @@ body:before {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .container::after {

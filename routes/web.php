@@ -12,35 +12,67 @@
 */
 
 Route::get('/', function () {
-    return view('home', ['page_title' => 'Home', 'registration_date' => date('m/d/Y')]);
+    return view('home', 
+                [
+	                'page_title' => 'Home', 
+	                'body_class' => 'homepage'
+                ]);
 });
 
 Route::get('about', function () {
-    return view('about', ['page_title' => 'About']);
+    return view('about', 
+                [
+                	'page_title' => 'About',
+                	'body_class' => 'about'
+                ]);
 });
 
 Route::get('services', function () {
-    return view('services', ['page_title' => 'Services']);
+    return view('services', 
+                [
+	            	'page_title' => 'Services',
+	            	'body_class' => 'services'
+	            ]);
 });
 
 Route::get('contact', function () {
-    return view('contact', ['page_title' => 'Contact Us']);
+    return view('contact',
+                [
+                	'page_title' => 'Contact Us',
+                	'body_class' => 'contact'
+                ]);
 });
 
 Route::get('coaching', function () {
-    return view('interculturalcoaching', ['page_title' => 'Intercultural Coaching']);
+    return view('interculturalcoaching',
+                [
+                	'page_title' => 'Intercultural Coaching',
+                	'body_class' => 'coaching'
+                ]);
 });
 
 Route::get('training', function () {
-    return view('training', ['page_title' => 'Training']);
+    return view('training',
+                [
+                	'page_title' => 'Training',
+                	'body_class' => 'training'
+                ]);
 });
 
 Route::get('development', function () {
-    return view('programdevelopment', ['page_title' => 'Program Development']);
+    return view('programdevelopment', 
+                [
+                	'page_title' => 'Program Development',
+                	'body_class' => 'development'
+                ]);
 });
 
 Route::get('thanks', function () {
-    return view('thankyou', ['page_title' => 'Thank You']);
+    return view('thankyou', 
+                [
+                	'page_title' => 'Thank You',
+                	'body_class' => 'thanks'
+                ]);
 });
 
 //Asset Routes

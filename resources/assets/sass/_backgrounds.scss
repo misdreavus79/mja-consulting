@@ -1,16 +1,31 @@
-
-
-@mixin background-image($name, $size:false){
-    background-image: url(#{$image-path}/#{$name}-#{width}.jpg);
-    @if($size){
-        background-size: $size;
-    }
-    
-    // .no-svg &{
-    //     background-image: url(#{$image-path}/#{$name}.#{$fallback-extension});
-
-    //     @media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-    //       background-image: url(#{$image-path}/#{$name}#{$retina-suffix}.#{$fallback-extension});
-    //     }
-    // }
+@include media(max-width 1920px){
+	body{
+		@include background-image('man-reading', $ultra-hd, cover);
+	}
 }
+@include media(max-width 1440px){
+	body{
+		@include background-image('man-reading', $hd, cover);
+	}
+}
+@include media(max-width 1280px){
+	body{
+		@include background-image('man-reading', $large-laptop, cover);
+	}
+}
+@include media(max-width 1024px){
+	body{
+		@include background-image('man-reading', $small-laptop, cover);
+	}
+}
+@include media(max-width 960px){
+	body{
+		@include background-image('man-reading', $large-tablet, cover);
+	}
+}
+@include media(max-width, 768px){
+	body{
+		@include background-image('man-reading', $small-tablet, cover);
+	}
+}
+

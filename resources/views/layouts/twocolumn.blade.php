@@ -7,7 +7,7 @@
         <title>{{ $page_title }} | MJAMangual</title>
         <link rel="stylesheet" type="text/css" href="{{ elixir('css/app.css') }}">
     </head>
-    <body>
+    <body class="{{ $body_class }}">
         <div class="container">
             <section class="siteInfo">
                 <header class="siteHeader">
